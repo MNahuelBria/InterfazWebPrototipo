@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 
-a {
+html {
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+#barraNavegacion {
     text-transform: capitalize;
+    box-sizing: content-box;
+    margin: 1em;
+    padding: 20px 10px;
+
+}
+#enlacesb {
+    list-style: none;
+    text-align: end;
+}
+.enlaces:link {
+    text-decoration: none;
+    color: #00000099;
+}
+.enlaces:visited {
+    text-decoration: none;
+    color: #00000099;
+}
+.enlaces:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.imagenes {
+    width: 130px;
+    height: auto;
 }
