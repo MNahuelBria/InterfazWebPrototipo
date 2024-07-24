@@ -5,15 +5,26 @@ html {
     font-size: 16px;
 }
 #barraNavegacion {
-    text-transform: capitalize;
     box-sizing: content-box;
     margin: 1em;
     padding: 20px 10px;
-
+    display: flex;
+    justify-content: space-between;
 }
-#enlacesb {
+#enlaces {
+    text-transform: capitalize;
     list-style: none;
-    text-align: end;
+    padding: 0 10px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagenes {
+    width: 150px;
+    height: auto;
+}
+.logo {
+    padding: 0 20px;
 }
 .enlaces:link {
     text-decoration: none;
@@ -26,8 +37,4 @@ html {
 .enlaces:hover {
     text-decoration: none;
     color: #000000;
-}
-.imagenes {
-    width: 130px;
-    height: auto;
 }
